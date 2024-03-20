@@ -27,3 +27,8 @@ a{
   padding: 20px 40px;
   
 }
+.progress p{
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}

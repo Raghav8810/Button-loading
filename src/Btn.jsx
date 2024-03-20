@@ -53,7 +53,7 @@ const barLoading = () => {
 
       {/* Show 0 to 100 bar percentage */}
 
-      {loading && <div>
+      {loading && <div className="progress">
           <Progress value={progress} style={{ height: '50px', width: '250px' }}  />
           <p>{`${progress}%`}</p> 
         </div> }
